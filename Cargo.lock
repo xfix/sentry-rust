@@ -301,12 +301,9 @@ checksum = "7079075b41f533b8c61d2a4d073c4676e1f8b249ff94a393b0595db304e0dd87"
 
 [[package]]
 name = "anyhow"
-version = "1.0.75"
+version = "1.0.77"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a4668cab20f66d8d020e1fbc0ebe47217433c1b6c8f2040faf858554e394ace6"
-dependencies = [
- "backtrace",
-]
+checksum = "c9d19de80eff169429ac1e9f48fffb163916b448a44e8e046186232046d9e1f9"
 
 [[package]]
 name = "arrayvec"
@@ -2939,7 +2936,7 @@ checksum = "388a1df253eca08550bef6c72392cfe7c30914bf41df5269b68cbd6ff8f570a3"
 
 [[package]]
 name = "sentry"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "actix-web",
  "anyhow",
@@ -2975,7 +2972,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-actix"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "actix-web",
  "futures",
@@ -2987,7 +2984,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-anyhow"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "anyhow",
  "sentry",
@@ -2997,7 +2994,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-backtrace"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "backtrace",
  "once_cell",
@@ -3007,7 +3004,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-contexts"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "hostname",
  "libc",
@@ -3020,7 +3017,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-core"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "anyhow",
  "cadence",
@@ -3041,7 +3038,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-debug-images"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "findshlibs",
  "once_cell",
@@ -3050,7 +3047,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-log"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "log",
  "pretty_env_logger",
@@ -3060,7 +3057,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-panic"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "sentry",
  "sentry-backtrace",
@@ -3069,7 +3066,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-slog"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "erased-serde",
  "sentry",
@@ -3081,7 +3078,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-tower"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "anyhow",
  "axum 0.7.1",
@@ -3101,7 +3098,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-tracing"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "log",
  "sentry",
@@ -3115,7 +3112,7 @@ dependencies = [
 
 [[package]]
 name = "sentry-types"
-version = "0.32.0"
+version = "0.32.1"
 dependencies = [
  "debugid",
  "hex",
